@@ -15,7 +15,7 @@ class School
       @roster[grade] = [] if !@roster[grade]
       @roster[grade] << name
      
-       @roster = hash 
+     
   
     end
 end
