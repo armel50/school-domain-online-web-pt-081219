@@ -1,6 +1,6 @@
 class School 
   def initialize(part)
-    @school = part
+   
      def roster
       @roster = {}
     end
@@ -15,7 +15,6 @@ class School
       hash[grade] = [] if !hash[grade]
       hash[grade] << name
        @roster = hash 
-          
-      
+ 
     end
 end
