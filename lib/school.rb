@@ -2,7 +2,11 @@ class School
   def initialize(part)
    
   end
-   attr_accessor :roster
+    def roster=(roster)
+      @roster = roster
+    end
+   attr_reader :roster 
+  
 end
 
 school = School.new("Bayside High School")
