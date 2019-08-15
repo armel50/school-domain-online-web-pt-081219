@@ -1,8 +1,8 @@
 class School 
   def initialize(part)
-    roster = {}
+   
   end
-  
+   roster = {}
 end
 
 school = School.new("Bayside High School")
