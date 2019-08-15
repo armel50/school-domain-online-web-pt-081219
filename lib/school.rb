@@ -11,9 +11,9 @@ class School
   
   
     def add_student(name, grade)
-      hash = {}
-      hash[grade] = [] if !hash[grade]
-      name.each {|el|  hash[grade] << el}
+      @roster
+      @roster[grade] = [] if !@roster[grade]
+      name.each {|el|  @roster[grade] << el} if name 
      
        @roster = hash 
   
