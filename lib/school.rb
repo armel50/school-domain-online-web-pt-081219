@@ -7,8 +7,7 @@ class School
     end
   
     def add_student(name, grade)
-      @roster["#{grade}"] = [] if !@roster[grade]
-      @roster["#{grade}"] << name
+      p @roster
     end
 end
 
