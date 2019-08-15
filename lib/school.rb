@@ -11,7 +11,7 @@ class School
       hash = {}
       hash[grade] = [] if !hash[grade]
       hash[grade] << name
-       p hash
+       roster = hash
       
     end
 end
