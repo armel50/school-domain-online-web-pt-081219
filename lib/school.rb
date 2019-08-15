@@ -8,7 +8,7 @@ class School
   
     def add_student(name, grade)
      
-      @roster
+      p @roster
       
     end
 end
