@@ -15,7 +15,7 @@ class School
       hash[grade] = [] if !hash[grade]
       hash[grade] << name
        @roster = hash 
-       p @roster
+          
       
     end
 end
